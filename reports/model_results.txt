@@ -1,0 +1,9 @@
+Best-performing model on this dataset and test split
+Decision Tree
+                 Model  Accuracy  Precision   Recall  F1-Score  Training Time (seconds)
+         Decision Tree  1.000000   1.000000 1.000000  1.000000                 0.761824
+         Random Forest  1.000000   1.000000 1.000000  1.000000                 1.580460
+               XGBoost  1.000000   1.000000 1.000000  1.000000                 1.057923
+Support Vector Machine  0.999656   0.999653 0.999653  0.999653                 2.052286
+   Logistic Regression  0.999053   0.999306 0.998786  0.999046                 0.522182
+Confusion matrix: [[5846, 0], [0, 5766]]

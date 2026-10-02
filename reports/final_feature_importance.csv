@@ -1,0 +1,16 @@
+Feature,Importance,Rank
+svcscan.nservices,0.986781988679331,1
+svcscan.process_services,0.006516060151159368,2
+handles.avg_handles_per_proc,0.0029889228619624205,3
+callbacks.ncallbacks,0.0013661950027009139,4
+malfind.commitCharge,0.0008598512122331841,5
+handles.nhandles,0.0007886446162075461,6
+handles.nfile,0.00020301011685930134,7
+handles.nevent,0.00016558180639450747,8
+handles.ndesktop,0.00015923230309503885,9
+malfind.protection,7.950046534350258e-05,10
+psxview.not_in_deskthrd,7.894837877861717e-05,11
+handles.nmutant,1.2064405934567737e-05,12
+handles.nkey,0.0,13
+handles.nthread,0.0,14
+pslist.nppid,0.0,15

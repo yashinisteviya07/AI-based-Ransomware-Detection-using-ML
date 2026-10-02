@@ -1,0 +1,14 @@
+{
+  "potential_leakage_detected": true,
+  "high_univariate_auc_features": [
+    "dlllist.avg_dlls_per_proc",
+    "svcscan.nservices"
+  ],
+  "identifier_like_feature_names": [
+    "pslist.nppid",
+    "psxview.not_in_pspcid_list",
+    "psxview.not_in_pspcid_list_false_avg"
+  ],
+  "interpretation": "High predictive strength is present and requires domain review; the numeric names are behavioral/memory telemetry rather than explicit labels, but perfect separation should not be treated as universally generalizable.",
+  "recommendation": "Retain original results for this dataset, but describe them as dataset-specific and perform external or temporal validation before claiming deployment-level generalization."
+}

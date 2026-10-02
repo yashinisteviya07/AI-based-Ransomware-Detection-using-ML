@@ -1,0 +1,26 @@
+# virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large dataset files (optional — comment out if you want them tracked)
+dataset/Obfuscated-MalMem2022.csv
+dataset/Obfuscated-MalMem2022.parquet
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

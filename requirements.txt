@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn==1.9.1
+xgboost
+matplotlib
+seaborn
+pyarrow
+joblib
+streamlit
+plotly
+jupyter
+nbformat
+nbclient

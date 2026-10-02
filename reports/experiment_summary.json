@@ -1,0 +1,66 @@
+{
+  "dataset_name": "CIC-MalMem2022",
+  "dataset_file": "Obfuscated-MalMem2022.csv",
+  "records": 58058,
+  "original_columns": 57,
+  "final_features": 52,
+  "train_samples": 46446,
+  "test_samples": 11612,
+  "selected_model": "Decision Tree",
+  "test_metrics": {
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1-Score": 1.0
+  },
+  "cross_validation_metrics": [
+    {
+      "Model": "XGBoost",
+      "Mean Accuracy": 0.9998277555741766,
+      "Std Accuracy": 8.6125110064536e-05,
+      "Mean Precision": 0.9997399407615712,
+      "Mean Recall": 0.9999132885324084,
+      "Mean F1-Score": 0.9998265958584482
+    },
+    {
+      "Model": "Random Forest",
+      "Mean Accuracy": 0.9998277555741766,
+      "Std Accuracy": 0.0001749182507711,
+      "Mean Precision": 0.9998266428285292,
+      "Mean Recall": 0.9998265770648168,
+      "Mean F1-Score": 0.9998265770536096
+    },
+    {
+      "Model": "Decision Tree",
+      "Mean Accuracy": 0.9997416368377194,
+      "Std Accuracy": 0.0001291815818419,
+      "Mean Precision": 0.9996532668476524,
+      "Mean Recall": 0.9998265770648168,
+      "Mean F1-Score": 0.999739893783854
+    }
+  ],
+  "alternative_split_metrics": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.999827764381674,
+      "Precision": 0.9996532994337224,
+      "Recall": 1.0,
+      "F1-Score": 0.9998266196613304
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.9997703525088988,
+      "Precision": 0.9995377859949156,
+      "Recall": 1.0,
+      "F1-Score": 0.9997688395746648
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.999598116890573,
+      "Precision": 0.9994221657228708,
+      "Recall": 0.9997687861271676,
+      "F1-Score": 0.9995954458764376
+    }
+  ],
+  "validation_caveat": "Performance is measured on CIC-MalMem2022 and may reflect dataset-specific separability. External or temporal validation is required before making real-world deployment claims."
+}

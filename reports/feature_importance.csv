@@ -1,0 +1,157 @@
+Model,Feature,Importance,Rank
+Decision Tree,svcscan.nservices,0.986781988679331,1
+Decision Tree,svcscan.process_services,0.006516060151159368,2
+Decision Tree,handles.avg_handles_per_proc,0.0029889228619624205,3
+Decision Tree,callbacks.ncallbacks,0.0013661950027009139,4
+Decision Tree,malfind.commitCharge,0.0008598512122331841,5
+Decision Tree,handles.nhandles,0.0007886446162075461,6
+Decision Tree,handles.nfile,0.00020301011685930134,7
+Decision Tree,handles.nevent,0.00016558180639450747,8
+Decision Tree,handles.ndesktop,0.00015923230309503885,9
+Decision Tree,malfind.protection,7.950046534350258e-05,10
+Decision Tree,psxview.not_in_deskthrd,7.894837877861717e-05,11
+Decision Tree,handles.nmutant,1.2064405934567737e-05,12
+Decision Tree,pslist.nproc,0.0,13
+Decision Tree,pslist.nppid,0.0,14
+Decision Tree,pslist.avg_threads,0.0,15
+Decision Tree,pslist.avg_handlers,0.0,16
+Decision Tree,dlllist.ndlls,0.0,17
+Decision Tree,dlllist.avg_dlls_per_proc,0.0,18
+Decision Tree,handles.nkey,0.0,19
+Decision Tree,handles.nthread,0.0,20
+Decision Tree,handles.ndirectory,0.0,21
+Decision Tree,handles.nsemaphore,0.0,22
+Decision Tree,handles.ntimer,0.0,23
+Decision Tree,handles.nsection,0.0,24
+Decision Tree,ldrmodules.not_in_load,0.0,25
+Decision Tree,ldrmodules.not_in_init,0.0,26
+Decision Tree,ldrmodules.not_in_mem,0.0,27
+Decision Tree,ldrmodules.not_in_load_avg,0.0,28
+Decision Tree,ldrmodules.not_in_init_avg,0.0,29
+Decision Tree,ldrmodules.not_in_mem_avg,0.0,30
+Decision Tree,malfind.ninjections,0.0,31
+Decision Tree,malfind.uniqueInjections,0.0,32
+Decision Tree,psxview.not_in_pslist,0.0,33
+Decision Tree,psxview.not_in_eprocess_pool,0.0,34
+Decision Tree,psxview.not_in_ethread_pool,0.0,35
+Decision Tree,psxview.not_in_pspcid_list,0.0,36
+Decision Tree,psxview.not_in_csrss_handles,0.0,37
+Decision Tree,psxview.not_in_session,0.0,38
+Decision Tree,psxview.not_in_pslist_false_avg,0.0,39
+Decision Tree,psxview.not_in_eprocess_pool_false_avg,0.0,40
+Decision Tree,psxview.not_in_ethread_pool_false_avg,0.0,41
+Decision Tree,psxview.not_in_pspcid_list_false_avg,0.0,42
+Decision Tree,psxview.not_in_csrss_handles_false_avg,0.0,43
+Decision Tree,psxview.not_in_session_false_avg,0.0,44
+Decision Tree,psxview.not_in_deskthrd_false_avg,0.0,45
+Decision Tree,modules.nmodules,0.0,46
+Decision Tree,svcscan.kernel_drivers,0.0,47
+Decision Tree,svcscan.fs_drivers,0.0,48
+Decision Tree,svcscan.shared_process_services,0.0,49
+Decision Tree,svcscan.nactive,0.0,50
+Decision Tree,callbacks.nanonymous,0.0,51
+Decision Tree,callbacks.ngeneric,0.0,52
+Random Forest,svcscan.kernel_drivers,0.1410636558567712,1
+Random Forest,svcscan.nservices,0.1398014088141552,2
+Random Forest,handles.nmutant,0.0964009742459554,3
+Random Forest,svcscan.shared_process_services,0.09144569269579866,4
+Random Forest,dlllist.avg_dlls_per_proc,0.08254419648849039,5
+Random Forest,handles.nhandles,0.0656033908116504,6
+Random Forest,handles.nevent,0.063473664809201,7
+Random Forest,handles.avg_handles_per_proc,0.05558004431716295,8
+Random Forest,dlllist.ndlls,0.04624141339583701,9
+Random Forest,pslist.avg_handlers,0.03525919065762166,10
+Random Forest,handles.nsection,0.0310283978543588,11
+Random Forest,handles.nkey,0.02854398568415108,12
+Random Forest,ldrmodules.not_in_load,0.021195324616543304,13
+Random Forest,handles.nthread,0.01816112399905463,14
+Random Forest,handles.nsemaphore,0.016656683463399997,15
+Random Forest,ldrmodules.not_in_mem,0.012873338770156522,16
+Random Forest,handles.nfile,0.011240623492219312,17
+Random Forest,handles.ntimer,0.009139338790490918,18
+Random Forest,ldrmodules.not_in_mem_avg,0.007597730813668232,19
+Random Forest,svcscan.process_services,0.006319088094842856,20
+Random Forest,pslist.nppid,0.005376993558728228,21
+Random Forest,svcscan.nactive,0.004683888477572049,22
+Random Forest,pslist.avg_threads,0.0013057263416920756,23
+Random Forest,ldrmodules.not_in_init_avg,0.0011513154173894812,24
+Random Forest,ldrmodules.not_in_load_avg,0.0011335064086132193,25
+Random Forest,pslist.nproc,0.001055780861786685,26
+Random Forest,psxview.not_in_deskthrd,0.0010085585662794232,27
+Random Forest,callbacks.ncallbacks,0.0005585729920438557,28
+Random Forest,malfind.commitCharge,0.0005382786978265287,29
+Random Forest,handles.ndesktop,0.0004523001828363128,30
+Random Forest,psxview.not_in_deskthrd_false_avg,0.00039646642490133026,31
+Random Forest,malfind.ninjections,0.00036532978699237726,32
+Random Forest,handles.ndirectory,0.0003609530350025525,33
+Random Forest,malfind.protection,0.0003215644429530846,34
+Random Forest,ldrmodules.not_in_init,0.0002418943439462671,35
+Random Forest,malfind.uniqueInjections,0.0001880828049758867,36
+Random Forest,psxview.not_in_csrss_handles_false_avg,0.00013464006205667894,37
+Random Forest,psxview.not_in_session_false_avg,9.818680804746795e-05,38
+Random Forest,psxview.not_in_ethread_pool,9.804658173885957e-05,39
+Random Forest,psxview.not_in_ethread_pool_false_avg,8.322948289253499e-05,40
+Random Forest,psxview.not_in_pspcid_list_false_avg,6.374336903179693e-05,41
+Random Forest,psxview.not_in_csrss_handles,5.434651573486539e-05,42
+Random Forest,modules.nmodules,4.85138629080785e-05,43
+Random Forest,psxview.not_in_pslist_false_avg,4.733505654618574e-05,44
+Random Forest,psxview.not_in_pslist,2.945907570807351e-05,45
+Random Forest,psxview.not_in_pspcid_list,1.9966340186414857e-05,46
+Random Forest,psxview.not_in_session,1.28933444350136e-05,47
+Random Forest,callbacks.nanonymous,7.826806080764055e-07,48
+Random Forest,psxview.not_in_eprocess_pool_false_avg,3.768050370809479e-07,49
+Random Forest,psxview.not_in_eprocess_pool,0.0,50
+Random Forest,svcscan.fs_drivers,0.0,51
+Random Forest,callbacks.ngeneric,0.0,52
+XGBoost,svcscan.shared_process_services,0.8363445401191711,1
+XGBoost,svcscan.nservices,0.15583746135234833,2
+XGBoost,svcscan.process_services,0.0017925465945154428,3
+XGBoost,psxview.not_in_deskthrd,0.0010847619269043207,4
+XGBoost,handles.avg_handles_per_proc,0.0006972700357437134,5
+XGBoost,callbacks.ncallbacks,0.0005280817858874798,6
+XGBoost,handles.ndesktop,0.00039235365693457425,7
+XGBoost,handles.nhandles,0.00038017533370293677,8
+XGBoost,malfind.ninjections,0.0003036496927961707,9
+XGBoost,psxview.not_in_pslist_false_avg,0.0002456895599607378,10
+XGBoost,handles.nfile,0.00023210032668430358,11
+XGBoost,malfind.commitCharge,0.00021612466662190855,12
+XGBoost,pslist.nproc,0.00015546650683972985,13
+XGBoost,pslist.avg_handlers,0.00012710793816950172,14
+XGBoost,handles.nevent,0.00012433668598532677,15
+XGBoost,ldrmodules.not_in_load_avg,0.00011766694660764188,16
+XGBoost,ldrmodules.not_in_init_avg,0.00011647850624285638,17
+XGBoost,psxview.not_in_ethread_pool,0.00010805563942994922,18
+XGBoost,psxview.not_in_csrss_handles_false_avg,0.00010702156578190625,19
+XGBoost,psxview.not_in_ethread_pool_false_avg,0.00010006593220168725,20
+XGBoost,handles.nthread,9.26562279346399e-05,21
+XGBoost,psxview.not_in_csrss_handles,8.282409544335678e-05,22
+XGBoost,psxview.not_in_session_false_avg,8.03946313681081e-05,23
+XGBoost,pslist.nppid,7.486248796340078e-05,24
+XGBoost,pslist.avg_threads,7.427957461914048e-05,25
+XGBoost,handles.nsemaphore,6.085653876652941e-05,26
+XGBoost,ldrmodules.not_in_load,5.751662320108153e-05,27
+XGBoost,ldrmodules.not_in_mem_avg,5.623708420898765e-05,28
+XGBoost,psxview.not_in_deskthrd_false_avg,5.4068255849415436e-05,29
+XGBoost,handles.nkey,4.664724474423565e-05,30
+XGBoost,handles.nmutant,4.243636067258194e-05,31
+XGBoost,handles.ndirectory,4.186289879726246e-05,32
+XGBoost,malfind.protection,4.159033778705634e-05,33
+XGBoost,malfind.uniqueInjections,3.6870507756248116e-05,34
+XGBoost,handles.ntimer,3.1052568374434486e-05,35
+XGBoost,dlllist.avg_dlls_per_proc,3.003766505571548e-05,36
+XGBoost,svcscan.nactive,2.2253516362980008e-05,37
+XGBoost,dlllist.ndlls,2.0229452275088988e-05,38
+XGBoost,psxview.not_in_pslist,1.9785427866736427e-05,39
+XGBoost,handles.nsection,1.3408487575361505e-05,40
+XGBoost,ldrmodules.not_in_mem,9.256126759282779e-06,41
+XGBoost,ldrmodules.not_in_init,0.0,42
+XGBoost,psxview.not_in_eprocess_pool,0.0,43
+XGBoost,psxview.not_in_pspcid_list,0.0,44
+XGBoost,psxview.not_in_session,0.0,45
+XGBoost,psxview.not_in_eprocess_pool_false_avg,0.0,46
+XGBoost,psxview.not_in_pspcid_list_false_avg,0.0,47
+XGBoost,modules.nmodules,0.0,48
+XGBoost,svcscan.kernel_drivers,0.0,49
+XGBoost,svcscan.fs_drivers,0.0,50
+XGBoost,callbacks.nanonymous,0.0,51
+XGBoost,callbacks.ngeneric,0.0,52

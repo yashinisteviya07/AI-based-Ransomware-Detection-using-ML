@@ -1,0 +1,6 @@
+Validation conclusion: Potential leakage detected and specific features require domain review because near-perfect univariate predictive strength was observed.
+The features are named behavioral/memory telemetry fields, not explicit label or family identifiers. This supports retaining the original results for this dataset while avoiding universal claims.
+The original 100% results should be retained as measured, but further external, temporal, or cross-dataset validation is required before deployment claims.
+Best cross-validation model: XGBoost, mean F1=0.999827, mean recall=0.999913.
+Best additional 70/30 model: Random Forest, F1=0.999827, recall=1.000000.
+Recommended final project model: retain the Decision Tree as the selected model for this dataset because it tied for the highest original test performance and is the selected Step 3 artifact; do not call it universally best.
